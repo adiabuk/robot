@@ -45,6 +45,10 @@ void lights(int first_pin){
 
 void loop()
 {
+
+// 0-4 (Lights)
+// 5 (servo)
+  
   leds = 0;
   updateShiftRegister(); delay(500);
 
